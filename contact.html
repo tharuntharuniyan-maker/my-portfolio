@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Tharuniyan Uthayaseelan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-title">Tharuniyan Uthayaseelan</div>
+        <div class="brand-subtitle">BTEC L2 IT & Cybersecurity Portfolio</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="units.html" class="nav-link">Units Studied</a>
+        <a href="cybersecurity.html" class="nav-link">Cybersecurity</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link is-active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="container">
+      <h1 class="page-title">Contact</h1>
+      <p class="page-lead">Get in touch with me using the details below.</p>
+
+      <div class="section-grid">
+        <section class="unit">
+          <h2>Email</h2>
+          <div class="block">
+            <p><strong>tharuntharuniyan@gmail.com</strong></p>
+            <p class="muted">(Use this email for college or project enquiries.)</p>
+          </div>
+        </section>
+
+        <section class="unit">
+          <h2>Links</h2>
+          <div class="block">
+            <h4>LinkedIn</h4>
+            <p class="muted">Add your LinkedIn URL here.</p>
+            <div class="chips">
+              <span class="chip">linkedin.com/in/your-profile</span>
+            </div>
+
+            <h4 style="margin-top:1rem;">GitHub</h4>
+            <p class="muted">Add your GitHub URL here if you start coding projects.</p>
+            <div class="chips">
+              <span class="chip">github.com/your-username</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tharuniyan Uthayaseelan</p>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

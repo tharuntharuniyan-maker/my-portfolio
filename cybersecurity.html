@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cybersecurity | Tharuniyan Uthayaseelan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-title">Tharuniyan Uthayaseelan</div>
+        <div class="brand-subtitle">BTEC L2 IT & Cybersecurity Portfolio</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="units.html" class="nav-link">Units Studied</a>
+        <a href="cybersecurity.html" class="nav-link is-active">Cybersecurity</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="container">
+      <h1 class="page-title">Cybersecurity</h1>
+      <p class="page-lead">A dedicated section on the topics I learned during my course.</p>
+
+      <section class="unit">
+        <h2>Topics Covered</h2>
+        <div class="kv">
+          <div class="block">
+            <ul>
+              <li>Password security</li>
+              <li>Malware</li>
+              <li>Phishing</li>
+              <li>Social engineering</li>
+              <li>Data protection</li>
+              <li>Safe online behaviour</li>
+            </ul>
+
+            <h3 style="margin-top:1rem;">Example Content</h3>
+            <p>
+              Cybersecurity is the practice of protecting computers, networks, and data from cyber threats.
+              During my studies, I learned how attackers use phishing emails, malware, and weak passwords to
+              gain unauthorised access to systems.
+            </p>
+          </div>
+
+          <div class="block">
+            <h4>Skills Gained</h4>
+            <ul>
+              <li>Identifying cyber threats</li>
+              <li>Creating strong passwords</li>
+              <li>Understanding security policies</li>
+              <li>Online safety awareness</li>
+            </ul>
+
+            <div class="chips" aria-label="Cybersecurity skills">
+              <span class="chip">Phishing Awareness</span>
+              <span class="chip">Malware Knowledge</span>
+              <span class="chip">Password Hygiene</span>
+              <span class="chip">Data Protection</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tharuniyan Uthayaseelan</p>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

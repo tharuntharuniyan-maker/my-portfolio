@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Tharuniyan Uthayaseelan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-title">Tharuniyan Uthayaseelan</div>
+        <div class="brand-subtitle">BTEC L2 IT & Cybersecurity Portfolio</div>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="units.html" class="nav-link">Units Studied</a>
+        <a href="cybersecurity.html" class="nav-link">Cybersecurity</a>
+        <a href="projects.html" class="nav-link is-active">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="container">
+      <h1 class="page-title">Projects</h1>
+      <p class="page-lead">Coursework and practical activities with clear descriptions of what I did.</p>
+
+      <div class="section-grid">
+        <section class="unit">
+          <h2>Network Diagram Project</h2>
+          <div class="block">
+            <h4>What I Did</h4>
+            <ul>
+              <li>Designed a small office network.</li>
+              <li>Included computers, switches, routers, and an internet connection.</li>
+              <li>Demonstrated understanding of LAN design.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <p>
+              This project helped me understand how devices connect in a LAN and how data flows between
+              network components.
+            </p>
+          </div>
+        </section>
+
+        <section class="unit">
+          <h2>Cybersecurity Research Project</h2>
+          <div class="block">
+            <h4>What I Did</h4>
+            <ul>
+              <li>Investigated phishing attacks.</li>
+              <li>Explained how users can recognise suspicious emails.</li>
+              <li>Suggested prevention methods.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <p>
+              The research improved my cybersecurity awareness and helped me present practical advice to stay safe online.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tharuniyan Uthayaseelan</p>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

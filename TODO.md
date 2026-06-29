@@ -1,0 +1,4 @@
+- [ ] Inspect current styling (completed)
+- [x] Update `styles.css` to strengthen premium colour system (gold + blue) for: nav active/hover, buttons, chips, links, cards/tiles/units/stat hovers, and glass/glow effects
+- [x] Re-check for consistency across all pages (index/units/cybersecurity/projects/contact)
+- [x] Provide final result summary
